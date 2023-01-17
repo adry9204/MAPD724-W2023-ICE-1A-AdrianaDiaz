@@ -5,6 +5,7 @@ class GameScene: SKScene {
     
     var ocean1 : Ocean?
     var ocean2 : Ocean?
+    var player : Player?
     
     override func sceneDidLoad() {
         name = "GAME"
@@ -20,6 +21,10 @@ class GameScene: SKScene {
         ocean2?.Start()
         ocean2?.position.y = -773
         addChild(ocean2!)
+        
+        player = Player()
+        player?.Start()
+        addChild(player!)
                 
     }
     
@@ -33,7 +38,7 @@ class GameScene: SKScene {
     }
     
     func touchUp(atPoint pos : CGPoint) {
-        
+        player?.TouchMove(newPos: CGPoint(x: pos.x, y: -495))
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -58,5 +63,6 @@ class GameScene: SKScene {
     {
         ocean1?.Update()
         ocean2?.Update()
+        player?.Update()
     }
 }

@@ -36,6 +36,7 @@
 		28AAA5372976698800753373 /* yay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28AAA5242976698800753373 /* yay.mp3 */; };
 		28AAA5382976698800753373 /* Dock51.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28AAA5262976698800753373 /* Dock51.ttf */; };
 		28AAA53B29766C4600753373 /* Ocean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AAA53A29766C4600753373 /* Ocean.swift */; };
+		28AAA53D297679DF00753373 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AAA53C297679DF00753373 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		28AAA5242976698800753373 /* yay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yay.mp3; sourceTree = "<group>"; };
 		28AAA5262976698800753373 /* Dock51.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dock51.ttf; sourceTree = "<group>"; };
 		28AAA53A29766C4600753373 /* Ocean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocean.swift; sourceTree = "<group>"; };
+		28AAA53C297679DF00753373 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				28AAA53A29766C4600753373 /* Ocean.swift */,
+				28AAA53C297679DF00753373 /* Player.swift */,
 			);
 			path = GameObjects;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				28AAA50E2976663600753373 /* GameProtocol.swift in Sources */,
 				28AAA4FE297652E200753373 /* GameViewController.swift in Sources */,
 				28AAA4F6297652E200753373 /* AppDelegate.swift in Sources */,
+				28AAA53D297679DF00753373 /* Player.swift in Sources */,
 				28AAA53B29766C4600753373 /* Ocean.swift in Sources */,
 				28AAA5102976674400753373 /* GameObject.swift in Sources */,
 			);

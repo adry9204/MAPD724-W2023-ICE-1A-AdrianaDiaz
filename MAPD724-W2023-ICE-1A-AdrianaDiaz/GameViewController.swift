@@ -1,9 +1,3 @@
-//
-//  GameViewController.swift
-//  MAPD724-W2023-ICE-1A-AdrianaDiaz
-//
-//  Created by Adriana Diaz Torres on 1/16/23.
-//
 
 import UIKit
 import SpriteKit
